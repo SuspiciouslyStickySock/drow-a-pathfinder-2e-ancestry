@@ -166,9 +166,9 @@
                     "description": "Weapons with this trait are used or created by drows"
                 }
             },
-            "url": "https://github.com/SuspiciouslyStickySock/drow-a-pathfinder-2e-ancestry",
-            "manifest": "https://raw.githubusercontent.com/SuspiciouslyStickySock/drow-a-pathfinder-2e-ancestry/master/module.json",
-            "download": "https://github.com/SuspiciouslyStickySock/drow-a-pathfinder-2e-ancestry/archive/refs/heads/main.zip"
+            "url": X,
+            "manifest": X,
+            "download": X
         }
     }
 }
