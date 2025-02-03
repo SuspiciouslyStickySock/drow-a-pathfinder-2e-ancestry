@@ -1,0 +1,175 @@
+{
+    "id": "drow-a-pathfinder-2e-ancestry",
+    "title": "Drow: A Pathfinder 2e Ancestry",
+    "version": "1.0.5",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "manifest": "https://github.com/SuspiciouslyStickySock/drow-a-pathfinder-2e-ancestry/releases/latest/download/module.json",
+    "download": "https://github.com/SuspiciouslyStickySock/drow-a-pathfinder-2e-ancestry/releases/download/1.0.5/module.zip",
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
+    "description": "Dark reflections of their elven brethren from whom they descended long ago, the drow reside in caverns deep underground. A proud and often cruel and violent people, their attention is primarily focused on their own self-interests and bickering politics. While most of Golarion see drow as evil and tell stories of subterranean elves who kidnap and torture children and worship demons, they miss the complex and rich culture and history of drow society and that the drow themselves may be the victims of a tumultuous time.\n\nDrow: A Pathfinder 2e Ancestry includes the base rules for a playable drow ancestry and half-drow versatile heritage, as well as 5 drow heritages, over 30 ancestry feats, and 3 new drow items.",
+    "authors": [
+        {
+            "name": "Erin Keston",
+            "url": "https://www.pathfinderinfinite.com/browse.php?author=Erin%20Keston",
+            "discord": "n0varya",
+            "flags": {}
+        },
+        {
+            "name": "Ryann Curtis (Module Maker)",
+            "discord": "lyricalabuse",
+            "flags": {}
+        }
+    ],   
+	"packFolders": [
+        {
+            "name": "Drow: A Pathfinder 2e Ancestry",
+            "sorting": "m",
+            "packs": [
+                "actions",
+                "ancestries",
+                "effects",
+                "equipment",
+                "feats",
+                "features",
+                "heritages",
+                "journals"
+            ]
+        }
+    ],
+    "packs": [
+        {
+            "name": "actions",
+            "label": "Actions",
+            "path": "packs/actions",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "name": "ancestries",
+            "label": "Ancestries",
+            "path": "packs/ancestries",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "name": "effects",
+            "label": "Effects",
+            "path": "packs/effects",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "name": "equipment",
+            "label": "Equipment",
+            "path": "packs/equipment",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "name": "feats",
+            "label": "Feats",
+            "path": "packs/feats",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "name": "features",
+            "label": "Features",
+            "path": "packs/features",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "name": "heritages",
+            "label": "Heritages",
+            "path": "packs/heritages",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "name": "journals",
+            "label": "Journals",
+            "path": "packs/journals",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        }
+    ],
+    "flags": {
+        "Drow:-A-Pathfinder-2e-Ancestry": {
+            "pf2e-homebrew": {
+                "baseWeapons": {},
+                "creatureTraits": {
+                    "drow": "Drow",
+					"half-drow": "Half-Drow"
+                },
+                "equipmentTraits": {
+                    "drow": {
+                        "label": "Drow",
+                        "description": "Equipment with this trait are used or created by drows"
+                    }
+                },
+                "featTraits": {
+                    "drow": "Drow",
+					"half-drow": "Half-Drow"
+                }
+            },
+            "weaponTraits": {
+                "drow": {
+                    "label": "Drow",
+                    "description": "Weapons with this trait are used or created by drows"
+                }
+            }
+        }
+    }
+}

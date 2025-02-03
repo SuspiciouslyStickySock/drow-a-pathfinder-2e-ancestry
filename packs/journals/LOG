@@ -1,0 +1,8 @@
+2025/02/03-20:54:50.092879 fe2d4160f100 Recovering log #60
+2025/02/03-20:54:50.098314 fe2d4160f100 Delete type=3 #58
+2025/02/03-20:54:50.098375 fe2d4160f100 Delete type=0 #60
+2025/02/03-21:02:35.091868 fe2d38e0f100 Level-0 table #65: started
+2025/02/03-21:02:35.091895 fe2d38e0f100 Level-0 table #65: 0 bytes OK
+2025/02/03-21:02:35.094632 fe2d38e0f100 Delete type=0 #63
+2025/02/03-21:02:35.099175 fe2d38e0f100 Manual compaction at level-0 from '!journal!SMAZMTP9vPD8m91S' @ 72057594037927935 : 1 .. '!journal.pages!SMAZMTP9vPD8m91S.hzfqE6tT4sJxI51J' @ 0 : 0; will stop at (end)
+2025/02/03-21:02:35.102408 fe2d38e0f100 Manual compaction at level-1 from '!journal!SMAZMTP9vPD8m91S' @ 72057594037927935 : 1 .. '!journal.pages!SMAZMTP9vPD8m91S.hzfqE6tT4sJxI51J' @ 0 : 0; will stop at (end)

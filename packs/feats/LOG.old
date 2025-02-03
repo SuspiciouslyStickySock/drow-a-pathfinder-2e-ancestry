@@ -1,0 +1,8 @@
+2025/02/03-09:33:23.775169 ec6b3d60f100 Recovering log #55
+2025/02/03-09:33:23.780221 ec6b3d60f100 Delete type=3 #53
+2025/02/03-09:33:23.780273 ec6b3d60f100 Delete type=0 #55
+2025/02/03-10:38:41.080152 ec6b35c0f100 Level-0 table #60: started
+2025/02/03-10:38:41.080780 ec6b35c0f100 Level-0 table #60: 0 bytes OK
+2025/02/03-10:38:41.084860 ec6b35c0f100 Delete type=0 #58
+2025/02/03-10:38:41.085623 ec6b35c0f100 Manual compaction at level-0 from '!folders!M6Q3KUjVsSNR9e79' @ 72057594037927935 : 1 .. '!items!xMnpr8BL00Rspdsm' @ 0 : 0; will stop at (end)
+2025/02/03-10:38:41.085666 ec6b35c0f100 Manual compaction at level-1 from '!folders!M6Q3KUjVsSNR9e79' @ 72057594037927935 : 1 .. '!items!xMnpr8BL00Rspdsm' @ 0 : 0; will stop at (end)
